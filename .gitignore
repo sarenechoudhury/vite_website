@@ -1,3 +1,35 @@
+# -----------------------------
+# Node / Vite build artifacts
+# -----------------------------
 node_modules/
 dist/
+dist-ssr/
+*.local
+
+# -----------------------------
+# Vite cache / gh-pages cache
+# -----------------------------
+.cache/
+node_modules/.cache/
+node_modules/.cache/gh-pages/
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -----------------------------
+# System & IDE junk
+# -----------------------------
 .DS_Store
+Thumbs.db
+*.log
+
+# VSCode / JetBrains / MacOS project files
+.vscode/
+.idea/
+*.swp
