@@ -1,5 +1,6 @@
 {
   "name": "sareneac",
+  "type": "module",
   "version": "1.0.0",
   "description": "Portfolio site for Sarene Choudhury",
   "scripts": {
